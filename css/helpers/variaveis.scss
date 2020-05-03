@@ -1,5 +1,14 @@
 // Variaveis usadas no Sass 
 
-$cor-padrao: #c24e4b; 
-$cor-auxiliar: #1e2c35;
+$cor-padrao: darken(#c24e4b, 0); // darken deixa mais escuro a cor original(cor, %)
+$cor-auxiliar: lighten(#1e2c35, 0); //  lighten deixa mais clara a cor original(cor, %)
 $cor-branca: #fff;
+
+/* tipos de cores
+adjust-hue();
+
+saturate(); 
+
+complement();
+
+*/
