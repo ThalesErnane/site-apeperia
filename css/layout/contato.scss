@@ -9,10 +9,10 @@
 form {
   margin: 0 auto;
   width: 50%;
-  
-@media #{$mq-mobile}{
-  width: auto;
-}
+
+  @media #{$mq-mobile}  {
+      width: auto;
+  }
 
 }
 
@@ -34,5 +34,5 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include borda-arredondada;
-  @extend %sombra-padrao;
+  @include box-shadow(black 0 2px 5px);// usando framework compass
 }
